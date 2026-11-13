@@ -358,87 +358,102 @@
       <button class="profile" aria-label="Profilo">G</button>
     </header>
 
-    <section id="home" class="page active">
-      <div class="eyebrow">YOUR TRAINING JOURNEY</div>
-      <h1>Costruisci la tua<br>forza.</h1>
-      <p class="subtitle">Il tuo corpo. Il tuo percorso. Il tuo potenziale.</p>
+<section id="home" class="page active">
 
-      <div class="hero">
-        <div class="eyebrow">CALISTHENICS AI</div>
-        <h2>La tua evoluzione<br>inizia qui.</h2>
-        <p>Scegli come vuoi allenarti oggi. Adatterai il tuo percorso al tuo ritmo e ai tuoi obiettivi.</p>
-        <button class="primary-btn" onclick="goTo('workouts')">Esplora allenamenti →</button>
-      </div>
+  <div class="eyebrow">CALISTHENICS AI • YOUR JOURNEY</div>
+  <h1>Diventa più forte.<br>Un giorno alla volta.</h1>
+  <p class="subtitle">Costruisci il tuo corpo. Sviluppa le tue capacità. Supera i tuoi limiti.</p>
 
-      <div class="section-heading">
-        <h2>Modalità di allenamento</h2>
-        <small>CAMBIA QUANDO VUOI</small>
-      </div>
+  <div class="hero">
+    <div class="eyebrow">IL TUO PERCORSO INIZIA QUI</div>
+    <h2>Ogni ripetizione<br>ti porta più avanti.</h2>
+    <p>Un percorso di allenamento costruito intorno ai tuoi obiettivi, al tuo livello e alla tua evoluzione.</p>
+    <button class="primary-btn" onclick="goTo('workouts')">Inizia ad allenarti →</button>
+  </div>
 
-      <div class="mode-grid" id="modeGrid">
-        <button class="mode active" data-mode="calm">
-          <span class="mode-icon">🌿</span>
-          <strong>Calm</strong>
-          <small>Controllo, mobilità e ritmo tranquillo.</small>
-          <span class="selected-label">SELEZIONATA</span>
-        </button>
-        <button class="mode" data-mode="athletic">
-          <span class="mode-icon">⚡</span>
-          <strong>Athletic</strong>
-          <small>Agilità, esplosività e condizionamento.</small>
-          <span class="selected-label"></span>
-        </button>
-        <button class="mode" data-mode="hard">
-          <span class="mode-icon">🔥</span>
-          <strong>Hard</strong>
-          <small>Intensità elevata e sfida personale.</small>
-          <span class="selected-label"></span>
-        </button>
-        <button class="mode" data-mode="military">
-          <span class="mode-icon">🛡️</span>
-          <strong>Military</strong>
-          <small>Disciplina, resistenza e struttura.</small>
-          <span class="selected-label"></span>
-        </button>
-        <button class="mode" data-mode="skill">
-          <span class="mode-icon">🎯</span>
-          <strong>Skill</strong>
-          <small>Equilibrio e abilità avanzate.</small>
-          <span class="selected-label"></span>
-        </button>
-      </div>
+  <div class="section-heading">
+    <h2>Scegli la tua modalità</h2>
+    <small>CAMBIA QUANDO VUOI</small>
+  </div>
 
-      <div class="section-heading">
-        <h2>Il tuo spazio</h2>
-        <small>IL TUO PERCORSO</small>
-      </div>
+  <div class="mode-grid" id="modeGrid">
+    <button class="mode active" data-mode="calm">
+      <span class="mode-icon">🌿</span>
+      <strong>Calm</strong>
+      <small>Controllo, mobilità e tecnica.</small>
+      <span class="selected-label">SELEZIONATA</span>
+    </button>
 
-      <div class="stats">
-        <div class="stat"><strong>0</strong><small>Allenamenti</small></div>
-        <div class="stat"><strong>0</strong><small>Minuti</small></div>
-        <div class="stat"><strong>—</strong><small>Livello</small></div>
-      </div>
+    <button class="mode" data-mode="athletic">
+      <span class="mode-icon">⚡</span>
+      <strong>Athletic</strong>
+      <small>Agilità, potenza ed esplosività.</small>
+      <span class="selected-label"></span>
+    </button>
 
-      <div class="section-heading">
-        <h2>Prossimo allenamento</h2>
-      </div>
+    <button class="mode" data-mode="hard">
+      <span class="mode-icon">🔥</span>
+      <strong>Hard</strong>
+      <small>Intensità, forza e resistenza.</small>
+      <span class="selected-label"></span>
+    </button>
 
-      <div class="workout-card">
-        <div class="workout-symbol">✦</div>
-        <div class="workout-info">
-          <strong>Il tuo percorso comincia qui</strong>
-          <small>Completa il tuo profilo per iniziare.</small>
-        </div>
-        <span class="arrow">›</span>
-      </div>
+    <button class="mode" data-mode="military">
+      <span class="mode-icon">🛡️</span>
+      <strong>Military</strong>
+      <small>Disciplina, costanza e determinazione.</small>
+      <span class="selected-label"></span>
+    </button>
 
-      <div class="notice">
-        <strong>Nota:</strong> i dati mostrati sono iniziali e dimostrativi.
-        La personalizzazione reale arriverà con il sistema di profili e allenamento.
-      </div>
-    </section>
+    <button class="mode" data-mode="skill">
+      <span class="mode-icon">🎯</span>
+      <strong>Skill</strong>
+      <small>Equilibrio e abilità calisthenics.</small>
+      <span class="selected-label"></span>
+    </button>
+  </div>
 
-    <section id="workouts" class="page">
+  <div class="section-heading">
+    <h2>Il tuo progresso</h2>
+    <small>LA TUA EVOLUZIONE</small>
+  </div>
+
+  <div class="stats">
+    <div class="stat">
+      <strong>0</strong>
+      <small>Allenamenti</small>
+    </div>
+    <div class="stat">
+      <strong>0</strong>
+      <small>Minuti</small>
+    </div>
+    <div class="stat">
+      <strong>—</strong>
+      <small>Livello</small>
+    </div>
+  </div>
+
+  <div class="section-heading">
+    <h2>Pronto a iniziare?</h2>
+    <small>IL PROSSIMO PASSO</small>
+  </div>
+
+  <div class="workout-card" onclick="goTo('workouts')">
+    <div class="workout-symbol">✦</div>
+    <div class="workout-info">
+      <strong>Costruisci la tua prima sessione</strong>
+      <small>Scopri gli allenamenti e inizia il tuo percorso.</small>
+    </div>
+    <span class="arrow">›</span>
+  </div>
+
+  <div class="notice">
+    <strong>Il tuo percorso, le tue regole.</strong>
+    I progressi verranno aggiornati man mano che completerai gli allenamenti.
+  </div>
+
+</section>
+   <section id="workouts" class="page">
       <div class="eyebrow">TRAINING CENTER</div>
       <h1>Allenamento.</h1>
       <p class="subtitle">Il tuo prossimo passo verso una versione più forte di te.</p>
